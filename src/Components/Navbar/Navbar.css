@@ -1,0 +1,41 @@
+.navbar-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    border-bottom: 1px solid #e5eaee;
+    
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+}
+.email:hover{
+    color: #0a9a73;
+    transition: 0.5s;
+    
+}
+.address:hover{
+    color: #0a9a73;
+    transition: 0.5s;
+}
+.contact svg{
+    color: #0a9a73;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.social-icons svg:hover{
+    color: #0a9a73;
+    transition: 0.5s;
+}
