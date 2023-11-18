@@ -11,7 +11,13 @@ export const Navbar = () => {
 
       {/* navbar main */}
       <div className="navbar-main">
-
+          <ul className='nav-list'>
+            <li>Equipments</li>
+            <li>Accesories</li>
+            <li>Reagents</li>
+            <li>Surgical</li>
+            
+          </ul>
       </div>
     </div>
   )
