@@ -1,13 +1,12 @@
 .hero{
     width: 1280px;
-    margin: 40px 40px;
     display: flex;
     gap: 40px;
     
-
 }
 .hero-left{
     width: 25%;
+    cursor: pointer;
 }
 /* .category-container{
     border: 1px solid #ddd;

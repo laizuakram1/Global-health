@@ -1,0 +1,22 @@
+.speciality{
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+.speciality-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.special{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.special svg{
+    font-size: 80px;
+}
+.special-text h3{
+    margin-bottom: 0;
+}
