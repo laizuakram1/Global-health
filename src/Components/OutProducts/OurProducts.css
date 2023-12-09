@@ -32,15 +32,15 @@
     display: block;
 }
 
-.products_container{
+/* .products_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
-}
-.products_container > div{
+} */
+/* .products_container > div{
     width: 350px;
     height: 400px;
 }
 .products_container > div > img{
     width: 80%;
-}
+} */

@@ -1,0 +1,53 @@
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.product{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+     
+}
+.product:hover p{
+    display: block;
+    transition:all 0.4s ease;
+}
+.product:hover img{
+    border-radius: 6px;
+    filter: brightness(75%);
+   
+}
+.product p{
+    display: none;
+}
+.product > p, h3{
+    margin: 5px;
+    text-align: left;
+}
+.product > p > span{
+    text-decoration-line: line-through;
+}
+.product:hover button{
+    display: block;
+}
+.product > button{
+    display: flex;
+    align-items: center;
+    background-color: #0a9a73;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 25%;
+    top: 40%;
+    display: none;
+}

@@ -4,8 +4,8 @@ import { ItemCard } from "../ItemCard/ItemCard";
 
 
 export const OurProducts = () => {
-  const [products, setProducts] = React.useState([]);
-  console.log(products)
+  // const [products, setProducts] = React.useState([]);
+  
  
 
   const all_tabs = document.querySelectorAll('.tab_btn');
@@ -16,16 +16,17 @@ export const OurProducts = () => {
       all_tabs.forEach((tab) =>{tab.classList.remove('active')});
       tab.classList.add('active');
 
-      all_contents.forEach((content) =>{content?.classList.remove('content-active')});
+      all_contents?.forEach((content) =>{content?.classList.remove('content-active')});
       all_contents[index]?.classList.add('content-active');
+      
     })
-  })
+  });
 
-  React.useEffect(()=>{
-    fetch('https://dummyjson.com/products')
-    .then(res => res.json())
-    .then(data => setProducts(data.products));
-  },[])
+  // React.useEffect(()=>{
+  //   fetch('https://dummyjson.com/products')
+  //   .then(res => res.json())
+  //   .then(data => setProducts(data.products));
+  // },[])
 
   return (
     <div className="our-products">
@@ -41,23 +42,26 @@ export const OurProducts = () => {
         </div>
 
         <div className="content_box">
-          <div className="content">
+          <div className="content content-active">
             <h2>Equipments</h2>
-          
-          
-            <div className="products_container">
-              {
-                products.map((item) => <div
-                key={item._id}
-                >
-                  <img src={item.thumbnail} alt="" />
-                  <p><span>$1280</span>| $1170</p>
-                  <h3>{item.title}</h3>
-                </div>)
-              }
-            </div>
-          
 
+            <ItemCard></ItemCard>
+          </div>
+          
+          <div className="content">
+            <h2>Laboratory</h2>
+
+            <ItemCard></ItemCard>
+          </div>
+          <div className="content">
+            <h2>Surgical</h2>
+
+            <ItemCard></ItemCard> 
+          </div>
+          <div className="content">
+            <h2>Kit</h2>
+
+            <ItemCard></ItemCard>
           </div>
           
           
