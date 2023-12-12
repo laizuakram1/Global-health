@@ -2,6 +2,8 @@ import React from 'react'
 import { Hero } from '../../Components/Hero/Hero'
 import { Speciality } from '../../Components/Speciality/Speciality'
 import { OurProducts } from '../../Components/OutProducts/OurProducts'
+import { FeaturedProducts } from '../../Components/FeaturedProducts/FeaturedProducts'
+import { BestSelling } from '../../Components/BestSelling/BestSelling'
 
 
 export const Home = () => {
@@ -10,6 +12,8 @@ export const Home = () => {
         <Hero></Hero>
         <Speciality />
         <OurProducts />
+        <BestSelling />
+        <FeaturedProducts />
     </div>
   )
 }

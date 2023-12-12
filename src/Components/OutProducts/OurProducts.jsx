@@ -13,11 +13,11 @@ export const OurProducts = () => {
 
   all_tabs.forEach((tab, index) =>{
     tab.addEventListener('click', () =>{
-      all_tabs.forEach((tab) =>{tab.classList.remove('active')});
-      tab.classList.add('active');
+      all_tabs.forEach((tab) =>{tab.classList.remove('active_btn')});
+      tab.classList.add('active_btn');
 
-      all_contents?.forEach((content) =>{content?.classList.remove('content-active')});
-      all_contents[index]?.classList.add('content-active');
+      all_contents?.forEach((content) =>{content?.classList.remove('active_content')});
+      all_contents[index]?.classList.add('active_content');
       
     })
   });
@@ -35,14 +35,14 @@ export const OurProducts = () => {
 
       <div className="tabs-container">
         <div className="tabs_box">
-          <button className="tab_btn active">Equipment</button>
+          <button className="tab_btn active_btn">Equipment</button>
           <button className="tab_btn">Laboratory</button>
           <button className="tab_btn">Surgical</button>
           <button className="tab_btn">Kit</button>
         </div>
 
         <div className="content_box">
-          <div className="content content-active">
+          <div className="content">
             <h2>Equipments</h2>
 
             <ItemCard></ItemCard>
