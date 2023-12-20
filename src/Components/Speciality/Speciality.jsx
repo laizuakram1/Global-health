@@ -1,29 +1,29 @@
 import React from 'react'
 import './Speciality.css';
-import { BiShoppingBag } from "react-icons/bi";
+import { BiSolidShip,BiSupport,BiMapPin   } from "react-icons/bi";
 
 export const Speciality = () => {
   return (
     <div className='speciality'>
         <div className="speciality-items">
             <div className="special">
-                <BiShoppingBag />
+                <BiSolidShip  />
                 <div className="special-text">
                     <h3>Free Shipping</h3>
                     <p>On all orders over $49.00</p>
                 </div>
             </div>
             <div className="special">
-                <BiShoppingBag />
+                <BiSupport  />
                 <div className="special-text">
-                    <h3>Free Shipping</h3>
+                    <h3>24/7 Online Support</h3>
                     <p>On all orders over $49.00</p>
                 </div>
             </div>
             <div className="special">
-                <BiShoppingBag />
+                <BiMapPin  />
                 <div className="special-text">
-                    <h2>Free Shipping</h2>
+                    <h3>First Delivery</h3>
                     <p>On all orders over $49.00</p>
                 </div>
             </div>
