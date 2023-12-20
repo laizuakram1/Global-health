@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import './Hero.css';
 import { BsList,BsFillMortarboardFill  } from "react-icons/bs";
-import { BiSolidChevronDown } from "react-icons/bi";
+import { BiSolidChevronDown,BiDna,BiSolidBriefcaseAlt2,BiSliderAlt ,BiSolidBaguette,BiSolidBong,BiSolidInjection,BiPlusMedical,BiBullseye     } from "react-icons/bi";
 import hero_bg from '../../assets/images/hero.jpg';
 import hero_bg2 from '../../assets/images/hero 2.jpg';
 
@@ -21,37 +21,50 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 
 export const Hero = () => {
+  // category header vanilla js
+  
+
+//   function dropDown() {
+//   document.querySelectorAll("item").style.display = "none";
+// }
+
+
+
+
+
+
+
   return (
     <div className='hero'>
         <div className="hero-left">
             <div className="category-container">
               <div className="category-header">
-                <h3><BsList /> CATEGORY</h3> <BiSolidChevronDown />
+                <h3><BsList /> CATEGORIES</h3> <BiSolidChevronDown />
               </div>
               <div className="category-items">
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>Equipments</span>
+                    <BiSolidBriefcaseAlt2   /> <span>Equipments</span>
                 </div>
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>Laboratory Setup</span>
+                    <BiDna /> <span>Laboratory Setup</span>
                 </div>
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>Reagents and Kits</span>
+                    <BiSolidBaguette /> <span>Reagents and Kits</span>
                 </div>
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>OT accessories</span>
+                    <BiSolidBong  /> <span>OT accessories</span>
                 </div>
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>Surgical Items  </span>
+                    <BiSolidInjection  /> <span>Surgical Items  </span>
                 </div>
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>First Aid</span>
+                    <BiPlusMedical  /> <span>First Aid</span>
                 </div>
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>Opthalmic products</span>
+                    <BiBullseye  /> <span>Opthalmic products</span>
                 </div>
                 <div className="item">
-                    <BsFillMortarboardFill /> <span>Sales and Service</span>
+                    <BiSliderAlt  /> <span>Sales and Service</span>
                 </div>
               </div>
                  
