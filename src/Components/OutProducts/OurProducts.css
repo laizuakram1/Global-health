@@ -1,5 +1,6 @@
 .our-products{
     text-align: center;
+    padding-bottom: 100px;
 }
 .our-products h1{
     font-size: 28px;
@@ -10,7 +11,7 @@
     font-size: 16px;
     font-weight: 500;
 }
-.tabs_box > button{
+.tabs > button{
     width: 130px;
     background-color: #ddd;
     padding: 15px 20px;
@@ -22,25 +23,25 @@
     cursor:pointer;
     border-radius: 4px;
 }
-.active{
+.tab_btn.active{
     color: #0a9a73;
 }
-.content_box .content{
-    display:none;
+
+.content{
+    display: none;
 }
-.content.content-active{
+.content h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content.active{
     display: block;
 }
-
-/* .products_container{
+.img_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
-} */
-/* .products_container > div{
-    width: 350px;
-    height: 400px;
+    grid-template-columns: repeat(4, 1fr auto);
+    gap: 15px;
 }
-.products_container > div > img{
-    width: 80%;
-} */
+.img_container img{
+    width: 280px;
+}

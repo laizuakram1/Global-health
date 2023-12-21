@@ -1,26 +1,28 @@
 import * as React from "react";
 import './OurProducts.css';
 import { ItemCard } from "../ItemCard/ItemCard";
+import productImg from '../../assets/images/analyzer.jpg'
+
 
 
 export const OurProducts = () => {
   // const [products, setProducts] = React.useState([]);
-  
- 
+  let allTabs = document.querySelectorAll('.tab_btn');
+  let allContents = document.querySelectorAll('.content');
 
-  const all_tabs = document.querySelectorAll('.tab_btn');
-  const all_contents = document.querySelectorAll('.content');
 
-  all_tabs.forEach((tab, index) =>{
-    tab.addEventListener('click', () =>{
-      all_tabs.forEach((tab) =>{tab.classList.remove('active_btn')});
-      tab.classList.add('active_btn');
+        allTabs.forEach((tab, index)=>{
+            tab.addEventListener('click',() =>{
+                allTabs.forEach((tab) =>{tab.classList.remove('active')});
+                tab.classList.add('active');
 
-      all_contents?.forEach((content) =>{content?.classList.remove('active_content')});
-      all_contents[index]?.classList.add('active_content');
-      
-    })
-  });
+                allContents.forEach((content) =>{content.classList.remove('active')});
+                allContents[index].classList.add('active');
+            })
+
+        })
+   
+
 
   // React.useEffect(()=>{
   //   fetch('https://dummyjson.com/products')
@@ -31,42 +33,64 @@ export const OurProducts = () => {
   return (
     <div className="our-products">
       <h1>All Products</h1>
-      <p>Supply best performance Medical equipments world wide.</p>
+    
+    <div className="products_container">
+      <div className="tabs">
+        <button className="tab_btn active">All</button>
+        <button className="tab_btn">Equipments</button>
+        <button className="tab_btn">Reagents</button>
+        <button className="tab_btn">Surgical</button>
+        <button className="tab_btn">Kit</button>
+      </div>
 
-      <div className="tabs-container">
-        <div className="tabs_box">
-          <button className="tab_btn active_btn">Equipment</button>
-          <button className="tab_btn">Laboratory</button>
-          <button className="tab_btn">Surgical</button>
-          <button className="tab_btn">Kit</button>
+      <div className="contents_box">
+        <div className="content active">
+          <h3>all products</h3>
+          <ItemCard />
         </div>
 
-        <div className="content_box">
-          <div className="content">
-            <h2>Equipments</h2>
-
-            <ItemCard></ItemCard>
+        <div className="content">
+          <h3>Equipments</h3>
+          <div className="img_container">
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
           </div>
-          
-          <div className="content">
-            <h2>Laboratory</h2>
+        </div>
 
-            <ItemCard></ItemCard>
+        <div className="content">
+          <h3>Reagent</h3>
+          <div className="img_container">
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
           </div>
-          <div className="content">
-            <h2>Surgical</h2>
+        </div>
 
-            <ItemCard></ItemCard> 
+        <div className="content">
+          <h3>Surgical</h3>
+          <div className="img_container">
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
           </div>
-          <div className="content">
-            <h2>Kit</h2>
+        </div>
 
-            <ItemCard></ItemCard>
+        <div className="content">
+          <h3>Kit</h3>
+          <div className="img_container">
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
+          <img src={productImg} alt="product img" />
           </div>
-          
-          
         </div>
       </div>
+    </div>
+      
     </div>
   );
 };
