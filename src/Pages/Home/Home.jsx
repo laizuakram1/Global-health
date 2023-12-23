@@ -4,6 +4,7 @@ import { Speciality } from '../../Components/Speciality/Speciality'
 import { OurProducts } from '../../Components/OutProducts/OurProducts'
 import { FeaturedProducts } from '../../Components/FeaturedProducts/FeaturedProducts'
 import { BestSelling } from '../../Components/BestSelling/BestSelling'
+import { AdsVideo } from '../../Components/AdsVideo/AdsVideo'
 
 
 export const Home = () => {
@@ -14,6 +15,7 @@ export const Home = () => {
         <OurProducts />
         <BestSelling />
         <FeaturedProducts />
+        <AdsVideo />
     </div>
   )
 }
