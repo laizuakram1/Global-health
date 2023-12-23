@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css';
 import { NavbarTop } from './NavbarTop'
 import { NavbarMiddle } from './NavbarMiddle'
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -12,10 +13,10 @@ export const Navbar = () => {
       {/* navbar main */}
       <div className="navbar-main">
           <ul className='nav-list'>
-            <li>Equipments</li>
-            <li>Accesories</li>
-            <li>Reagents</li>
-            <li>Surgical</li>
+            <Link to='/'><li>Home</li></Link>
+            <li>About</li>
+            <li>Shop</li>
+            <Link to='/contact'><li>Contact</li></Link>
             
           </ul>
       </div>

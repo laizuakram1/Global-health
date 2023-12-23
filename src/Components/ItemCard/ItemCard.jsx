@@ -16,7 +16,7 @@ export const ItemCard = ({products}) => {
             <div className='product'>
               <img src={item?.imageUrl} alt="" />
               <p><span>{item?.old_price}</span> | {item?.new_price}</p>
-              <h3>{item?.name}</h3>
+              <h4>{item?.name}</h4>
               <button>more details <BiRightArrowAlt /></button>
             </div>
             </>)

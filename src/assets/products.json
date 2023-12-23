@@ -42,6 +42,48 @@
         "imageUrl":"https://medicalstore.com.bd/public/uploads/products/thumbnail/erma-photoelectric-colorimeter.jpg",
         "new_price":15000,
         "old_price":17000
+    },
+    {
+        "id":7,
+        "name":"KN-95 mask",
+        "imageUrl":"https://www.astroshop.eu/Produktbilder/zoom/66761_6/Face-mask-KN95-10-pieces.jpg",
+        "new_price":450,
+        "old_price": 500
+    },
+    {
+        "id":7,
+        "name":"Gloves",
+        "imageUrl":"https://oxylife.co.in/197-large_default/hand-gloves.jpg",
+        "new_price":90,
+        "old_price": 110
+    },
+    {
+        "id":8,
+        "name":"X-ray machine",
+        "imageUrl":"https://www.ibisray.com/wp-content/uploads/2022/04/medium-iStock-996271430.jpg",
+        "new_price":1600000,
+        "old_price": 1900000
+    },
+    {
+        "id":9,
+        "name":"Reagents",
+        "imageUrl":"https://image.made-in-china.com/202f0j00vjchVQpRsaoP/3-Parts-and-5-Parts-Hematology-Reagents-for-All-Hematology-Analyzer.jpg",
+        "new_price":26000,
+        "old_price": 29700
+    },
+    {
+        "id":10,
+        "name":"Electrolyte",
+        "imageUrl":"https://www.sowarmedical.com/wp-content/uploads/2020/12/EXIAS-e1-Electrolyte-Analyzer-1.jpg",
+        "new_price":226000,
+        "old_price": 247000
+    },
+    {
+        "id":11,
+        "name":"ECG machine",
+        "imageUrl":"https://www.bdstall.com/asset/product-image/giant_117261.jpg",
+        "new_price":38000,
+        "old_price": 46000
     }
     
     

@@ -18,7 +18,7 @@ export const OurProducts = () => {
                 tab.classList.add('active');
 
                 allContents.forEach((content) =>{content.classList.remove('active')});
-                allContents[index].classList.add('active');
+                allContents[index]?.classList.add('active');
             })
 
         })
@@ -31,7 +31,7 @@ export const OurProducts = () => {
 
   return (
     <div className="our-products">
-      <h1>All Products</h1>
+      <h1>Our Products</h1>
     
     <div className="products_container">
       <div className="tabs">
