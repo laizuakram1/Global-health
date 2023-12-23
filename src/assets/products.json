@@ -1,0 +1,48 @@
+[
+    {
+        "id":1,
+        "name":"Patient Monitor",
+        "price":14000,
+        "imageUrl":"https://surgitouchplus.com/wp-content/uploads/2020/04/57.jpg",
+        "new_price":100,
+        "old_price":80
+    },
+    {
+        "id":2,
+        "name":"Ultrasonogram",
+        "price":24000,
+        "imageUrl":"https://medicalstore.com.bd/public/uploads/all/2tDQXvzTeWwl2LepUNxrrc3BBqHvF5f3ChmKAUUC.jpg",
+        "new_price":34444,
+        "old_price":345344
+    },
+    {
+        "id":3,
+        "name":"Microscope",
+        "imageUrl":"https://medicalstore.com.bd/public/uploads/all/fha9S6fFs7dpr3tbT8cPsrY5ZuutjvvTku5ZsEUs.jpg",
+        "new_price":14800,
+        "old_price":16000
+    },
+    {
+        "id":4,
+        "name":"Analyzer",
+        "imageUrl":"https://medicalstore.com.bd/public/uploads/all/lEC9dFJAP1kKdY2T2EXhne1BBrWQxz0mmn0OT8Aq.jpg",
+        "new_price":248000,
+        "old_price":256000
+    },
+    {
+        "id":5,
+        "name":"Centrifuge",
+        "imageUrl":"https://medicalstore.com.bd/public/uploads/products/thumbnail/TABLE-TOP-CENTRIFUGE-DSC-200A-2.jpeg",
+        "new_price":16000,
+        "old_price":18000
+    },
+    {
+        "id":6,
+        "name":"Colorimeter",
+        "imageUrl":"https://medicalstore.com.bd/public/uploads/products/thumbnail/erma-photoelectric-colorimeter.jpg",
+        "new_price":15000,
+        "old_price":17000
+    }
+    
+    
+]

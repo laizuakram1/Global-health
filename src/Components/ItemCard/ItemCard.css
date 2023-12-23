@@ -1,4 +1,4 @@
-.products-container{
+.product-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -11,6 +11,9 @@
     cursor: pointer;
     position: relative;
      
+}
+.product > img{
+    width: 100%;
 }
 .product:hover p{
     display: block;

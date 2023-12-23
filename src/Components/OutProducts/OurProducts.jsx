@@ -2,6 +2,7 @@ import * as React from "react";
 import './OurProducts.css';
 import { ItemCard } from "../ItemCard/ItemCard";
 import productImg from '../../assets/images/analyzer.jpg'
+import products from '../../assets/products.json';
 
 
 
@@ -21,8 +22,6 @@ export const OurProducts = () => {
             })
 
         })
-   
-
 
   // React.useEffect(()=>{
   //   fetch('https://dummyjson.com/products')
@@ -45,8 +44,10 @@ export const OurProducts = () => {
 
       <div className="contents_box">
         <div className="content active">
-          <h3>all products</h3>
-          <ItemCard />
+          <h3>All products</h3>
+
+         
+          <ItemCard products={products}/>
         </div>
 
         <div className="content">
