@@ -1,0 +1,78 @@
+
+
+.shop_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+.shop_icons{
+    display: flex;
+    align-items: center;
+}
+.shop_icons svg{
+    font-size: 40px;
+    cursor: pointer;
+}
+.shop_icons svg:first-child{
+    color: #0a9a73;
+    margin-right: 15px;
+    
+}
+.shop_sort > select{
+    border: 1px solid #e5eaee;
+    border-radius: 4px;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #576466;
+}
+select > option{
+    font-size: 18px;
+    font-weight: 600;
+    color:#576466;
+    padding: 15px;
+}
+.shop_sort_number p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.shop_pagination{
+    margin: 100px 0px;
+}
+.shop_pagination ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop_pagination ul li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #e5eaee;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop_pagination ul li:hover{
+    background-color: #0a9a73;
+    color: #fff;
+}
+.shop_pagination ul li > svg{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
