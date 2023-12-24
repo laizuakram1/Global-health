@@ -1,0 +1,21 @@
+.google_maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 60px;
+}
+.google_maps h1{
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #333;
+}
+.google_maps p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #576466;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
