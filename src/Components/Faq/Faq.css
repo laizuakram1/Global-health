@@ -1,0 +1,14 @@
+
+.smart-accordion {
+    width:600px;
+    height: 350px;
+}
+.faq_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+}
+.faq_container img{
+    padding: 0px 30px;
+    width: 500px;
+}

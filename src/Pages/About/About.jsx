@@ -5,6 +5,7 @@ import faithImage from '../../assets/images/faith.webp';
 import manager from '../../assets/images/manager.jpeg'
 import { BiCheckCircle,BiPhoneCall  } from "react-icons/bi";
 import { CoreFeatures } from '../../Components/CoreFeatures/CoreFeatures';
+import { Faq } from '../../Components/Faq/Faq';
 
 
 
@@ -52,6 +53,7 @@ export const About = () => {
         </div>
 
         <CoreFeatures />
+        <Faq />
     </div>
   )
 }
