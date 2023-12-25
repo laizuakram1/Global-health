@@ -4,10 +4,14 @@ import { BsFillGridFill,BsListTask   } from "react-icons/bs";
 import { BiSolidChevronsLeft,BiSolidChevronsRight } from "react-icons/bi";
 import { ItemCard } from '../../Components/ItemCard/ItemCard';
 import products from '../../assets/products.json';
+import { PageHeader } from '../../Components/PageHeader/PageHeader';
 
 export const Shop = () => {
   return (
     <div className='shop'>
+        
+        <PageHeader />
+
         <div className="shop_bar">
             <div className="shop_icons">
                 <BsFillGridFill />

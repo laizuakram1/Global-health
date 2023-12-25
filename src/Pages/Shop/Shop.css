@@ -4,14 +4,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 60px;
+    padding: 80px 60px 40px 60px;
 }
 .shop_icons{
     display: flex;
     align-items: center;
 }
 .shop_icons svg{
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
 }
 .shop_icons svg:first-child{
