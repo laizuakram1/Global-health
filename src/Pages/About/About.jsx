@@ -4,6 +4,7 @@ import { PageHeader } from '../../Components/PageHeader/PageHeader'
 import faithImage from '../../assets/images/faith.webp';
 import manager from '../../assets/images/manager.jpeg'
 import { BiCheckCircle,BiPhoneCall  } from "react-icons/bi";
+import { CoreFeatures } from '../../Components/CoreFeatures/CoreFeatures';
 
 
 
@@ -36,6 +37,7 @@ export const About = () => {
                             <p>General Manager</p>
                         </div>
                     </div>
+                    <div className="line"></div>
                     <div className="manager_right">
                         
                         <BiPhoneCall />
@@ -48,6 +50,8 @@ export const About = () => {
                 </div>
             </div>
         </div>
+
+        <CoreFeatures />
     </div>
   )
 }

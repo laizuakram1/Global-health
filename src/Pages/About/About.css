@@ -29,7 +29,7 @@
 .manager_contact{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
 }
 .manager_left{
     display: flex;
@@ -63,6 +63,7 @@
     background-color: #e5eaee;
     padding: 12px;
     border-radius: 6px;
+    margin-left: 20px;
 }
 .manager_right svg{
     font-size: 34px;
@@ -74,6 +75,15 @@
     flex-direction: column;
     margin-left: 10px;
 }
+.manager_contact_info p{
+    font-size: 15px;
+}
 .manager_contact_info h4{
     margin: 0px;
+}
+.line{
+    width: 2px;
+    height: 60px;
+    background-color: #e5eaee;
+    margin-left: 15px;
 }
