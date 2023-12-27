@@ -9,7 +9,7 @@ export const ItemCard = ({products}) => {
 
   return (
     <div className='products'>
-        {/* <Link to={`/products/${id}`}><img onClick={window.scrollTo(0,0)} src={props.thumbnail} alt="" /></Link> */}
+        {/* <Link to={`/products/${products?.id}`}><img onClick={window.scrollTo(0,0)} src={products?.thumbnail} alt="" /></Link> */}
         <div className="product-container">
           {
             products?.map((item, i) =><>
@@ -17,7 +17,7 @@ export const ItemCard = ({products}) => {
               <img src={item?.imageUrl} alt="" />
               <p><span>{item?.old_price}</span> | {item?.new_price}</p>
               <h4>{item?.name}</h4>
-              <button>more details <BiRightArrowAlt /></button>
+              <Link to={`/product/${item?.id}`}><button>more details <BiRightArrowAlt /></button></Link>
             </div>
             </>)
           }

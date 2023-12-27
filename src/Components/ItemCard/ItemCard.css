@@ -35,10 +35,10 @@
 .product > p > span{
     text-decoration-line: line-through;
 }
-.product:hover button{
+.product:hover a button{
     display: block;
 }
-.product > button{
+.product > a > button{
     display: flex;
     align-items: center;
     background-color: #0a9a73;

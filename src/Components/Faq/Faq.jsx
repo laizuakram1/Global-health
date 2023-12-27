@@ -28,7 +28,7 @@ export const Faq = () => {
               </div>
 
                 <div className="single_faq">
-                 <label htmlFor="second">How to buy products?  <span><BiSolidChevronDown /></span></label>
+                 <label htmlFor="second">How can I Refund from You?  <span><BiSolidChevronDown /></span></label>
                   <input type="radio" name='accordion' id='second' />
 
                 <div className="accordion_content">
@@ -37,7 +37,7 @@ export const Faq = () => {
               </div>
 
                 <div className="single_faq">
-                 <label htmlFor="third">How to buy products?  <span><BiSolidChevronDown /></span></label>
+                 <label htmlFor="third">Minimum Delivery Day?<span><BiSolidChevronDown /></span></label>
                   <input type="radio" name='accordion' id='third' />
 
                 <div className="accordion_content">
@@ -46,7 +46,7 @@ export const Faq = () => {
               </div>
 
                 <div className="single_faq">
-                 <label htmlFor="four">How to buy products?  <span><BiSolidChevronDown /></span></label>
+                 <label htmlFor="four">You have authorized Servicing Center?  <span><BiSolidChevronDown /></span></label>
                   <input type="radio" name='accordion' id='four' />
 
                 <div className="accordion_content">

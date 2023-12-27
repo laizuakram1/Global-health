@@ -9,16 +9,16 @@
     height: 100%;
     cursor: pointer;
 }
-.category-container{
+/* .category-container{
     border: 1px solid #ddd;
-}
+} */
 .category-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #0a9a73;
     color: #fff;
-    padding: 10px 20px;
+    padding: 8px 15px;
     cursor: pointer;
     font-size: 16px;
   
@@ -32,6 +32,10 @@
 .category-header svg:nth-child(2){
     font-size: 18px;
     font-weight: 600;
+}
+
+.category-items{
+    border: 1px solid #ddd;
 }
 
 

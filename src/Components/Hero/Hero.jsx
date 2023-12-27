@@ -4,6 +4,8 @@ import { BsList,BsFillMortarboardFill  } from "react-icons/bs";
 import { BiSolidChevronDown,BiDna,BiSolidBriefcaseAlt2,BiSliderAlt ,BiSolidBaguette,BiSolidBong,BiSolidInjection,BiPlusMedical,BiBullseye     } from "react-icons/bi";
 import hero_bg from '../../assets/images/hero.jpg';
 import hero_bg2 from '../../assets/images/hero 2.jpg';
+import faith from '../../assets/images/faith.webp'
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -70,6 +72,7 @@ export const Hero = () => {
                  
             </div>
         </div>
+        
         <div className="hero-right">
             <div className="hero-image-container">
               {/* <img src={hero_bg} alt="" />
@@ -77,23 +80,26 @@ export const Hero = () => {
               <img src={hero_bg} alt="" /> */}
 
               <Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        // navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[EffectFade, Navigation, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img src={hero_bg} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={hero_bg2} />
-        </SwiperSlide>
+                spaceBetween={30}
+                effect={'fade'}
+                // navigation={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[EffectFade, Navigation, Pagination]}
+                className="mySwiper"
+                >
+              <SwiperSlide>
+                <img src={hero_bg} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={hero_bg2} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={faith} />
+              </SwiperSlide>
 
-      </Swiper>
+            </Swiper>
             </div>
         </div>
     </div>
